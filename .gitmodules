@@ -1,0 +1,9 @@
+[submodule ".chef/cookbooks/java"]
+	path = .chef/cookbooks/java
+	url = https://github.com/socrata-cookbooks/java.git
+[submodule ".chef/cookbooks/elasticsearch"]
+	path = .chef/cookbooks/elasticsearch
+	url = https://github.com/elasticsearch/cookbook-elasticsearch.git
+[submodule ".chef/cookbooks/ark"]
+	path = .chef/cookbooks/ark
+	url = https://github.com/opscode-cookbooks/ark.git
