@@ -14,7 +14,7 @@ You will need a couple things, so continue reading.
   * Install vagrant-omnibus via `vagrant plugin install vagrant-omnibus`
   * (Optional) install vagrant-vbguest via `vagrant plugin install vagrant-vbguest`
   * Clone this repository `git clone https:something elastic-sandbox`
-  * Update submodules `git submodule update --init`
+  * Update submodules `git submodule update --init --recursive`
   * Start the virtual machine and provisioning process via `cd elastic-sandbox && vagrant up`
   * Wait.. because installing java takes some time :)
   * Test it, (I'm using curl, you can use your browser as well): `curl http://localhost:9200?pretty`
